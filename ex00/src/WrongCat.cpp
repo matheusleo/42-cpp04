@@ -1,31 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Animal.hpp                                         :+:      :+:    :+:   */
+/*   WrongWrongCat.cpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mleonard <mleonard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/06/05 20:34:25 by mleonard          #+#    #+#             */
-/*   Updated: 2024/06/05 21:22:36 by mleonard         ###   ########.fr       */
+/*   Created: 2024/06/05 20:52:52 by mleonard          #+#    #+#             */
+/*   Updated: 2024/06/05 21:24:45 by mleonard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef ANIMAL_HPP
-#define ANIMAL_HPP
-#include <iostream>
+#include <WrongCat.hpp>
 
-class Animal
+WrongCat::WrongCat()
 {
-protected:
-    std::string type;
+    this->type = "WrongCat";
+}
 
-public:
-    Animal();
-    virtual ~Animal();
+WrongCat::~WrongCat()
+{
+}
 
-    virtual void makeSound() const;
-    std::string getType() const;
-    void setType(std::string type);
-};
-
-#endif
+void WrongCat::makeSound() const
+{
+    std::cout << this->type << ": Meow!" << std::endl;
+}
