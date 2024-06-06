@@ -1,4 +1,4 @@
-NAME		:= phonebook
+NAME		:= animal
 
 INCLUDES_DIR 		:= ./includes/
 INCLUDES 			:= -I includes
@@ -38,6 +38,7 @@ $(NAME):		$(SRC_FILES) $(HEADERS_FILES)
 clean:
 				@$(RM) $(OBJ_FILES)
 				@$(RM) $(OBJ_PATH)
+				@$(RM) *.o
 				@echo "$(RED)The object files from $(NAME) were sucessfully removed!$(OFF)"
 
 fclean:			clean
