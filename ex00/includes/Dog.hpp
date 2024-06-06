@@ -6,7 +6,7 @@
 /*   By: mleonard <mleonard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/05 20:39:13 by mleonard          #+#    #+#             */
-/*   Updated: 2024/06/05 20:53:44 by mleonard         ###   ########.fr       */
+/*   Updated: 2024/06/05 20:59:36 by mleonard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ public:
     Dog();
     ~Dog();
 
-    void makeSound() const override;
+    void makeSound() const;
 };
 
 #endif

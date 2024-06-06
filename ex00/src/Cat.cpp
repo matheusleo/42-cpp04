@@ -6,7 +6,7 @@
 /*   By: mleonard <mleonard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/05 20:52:52 by mleonard          #+#    #+#             */
-/*   Updated: 2024/06/05 20:54:42 by mleonard         ###   ########.fr       */
+/*   Updated: 2024/06/05 21:09:39 by mleonard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,5 +23,5 @@ Cat::~Cat()
 
 void Cat::makeSound() const
 {
-    std::cout << "Meow!" << std::endl;
+    std::cout << this->type << ": Meow!" << std::endl;
 }

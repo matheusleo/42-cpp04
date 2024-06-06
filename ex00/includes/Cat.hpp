@@ -6,7 +6,7 @@
 /*   By: mleonard <mleonard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/05 20:39:13 by mleonard          #+#    #+#             */
-/*   Updated: 2024/06/05 20:54:18 by mleonard         ###   ########.fr       */
+/*   Updated: 2024/06/05 21:08:12 by mleonard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ public:
     Cat();
     ~Cat();
 
-    void makeSound() const override;
+    void makeSound() const;
 };
 
 #endif

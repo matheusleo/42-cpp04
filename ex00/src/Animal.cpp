@@ -6,7 +6,7 @@
 /*   By: mleonard <mleonard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/05 20:51:14 by mleonard          #+#    #+#             */
-/*   Updated: 2024/06/05 20:52:17 by mleonard         ###   ########.fr       */
+/*   Updated: 2024/06/05 21:09:20 by mleonard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ Animal::~Animal()
 
 void Animal::makeSound() const
 {
-    std::cout << "[Strange animal sounds]" << std::endl;
+    std::cout << this->type << ": [Strange animal sounds]" << std::endl;
 }
 
 std::string Animal::getType() const

@@ -6,7 +6,7 @@
 /*   By: mleonard <mleonard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/05 20:34:25 by mleonard          #+#    #+#             */
-/*   Updated: 2024/06/05 20:51:50 by mleonard         ###   ########.fr       */
+/*   Updated: 2024/06/05 21:00:45 by mleonard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ protected:
 
 public:
     Animal();
-    ~Animal();
+    virtual ~Animal();
 
     virtual void makeSound() const;
     std::string getType() const;

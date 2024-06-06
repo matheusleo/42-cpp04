@@ -1,4 +1,4 @@
-NAME		:= phonebook
+NAME		:= animal
 
 INCLUDES_DIR 		:= ./includes/
 INCLUDES 			:= -I includes
