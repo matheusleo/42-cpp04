@@ -6,33 +6,33 @@
 /*   By: mleonard <mleonard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/05 20:51:14 by mleonard          #+#    #+#             */
-/*   Updated: 2024/06/05 21:27:09 by mleonard         ###   ########.fr       */
+/*   Updated: 2024/06/05 21:42:35 by mleonard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <Animal.hpp>
 
-Animal::Animal() : type("Animal")
+AAnimal::AAnimal() : type("Animal")
 {
     std::cout << "Animal constructor called" << std::endl;
 }
 
-Animal::~Animal()
+AAnimal::~AAnimal()
 {
     std::cout << "Animal destructor called" << std::endl;
 }
 
-void Animal::makeSound() const
+void AAnimal::makeSound() const
 {
     std::cout << this->type << ": [Strange animal sounds]" << std::endl;
 }
 
-std::string Animal::getType() const
+std::string AAnimal::getType() const
 {
     return (this->type);
 }
 
-void Animal::setType(std::string type)
+void AAnimal::setType(std::string type)
 {
     this->type = type;
 }

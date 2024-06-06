@@ -6,7 +6,7 @@
 /*   By: mleonard <mleonard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/05 20:55:03 by mleonard          #+#    #+#             */
-/*   Updated: 2024/06/05 21:41:09 by mleonard         ###   ########.fr       */
+/*   Updated: 2024/06/05 21:42:35 by mleonard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 
 int main()
 {
-    const Animal *animals[4];
+    const AAnimal *animals[4];
 
     std::cout << "POPULATING ANIMALS:" << std::endl;
     std::cout << "CREATING DOGS" << std::endl;

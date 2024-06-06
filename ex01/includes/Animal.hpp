@@ -6,7 +6,7 @@
 /*   By: mleonard <mleonard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/05 20:34:25 by mleonard          #+#    #+#             */
-/*   Updated: 2024/06/05 21:22:36 by mleonard         ###   ########.fr       */
+/*   Updated: 2024/06/05 21:42:35 by mleonard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,14 +14,14 @@
 #define ANIMAL_HPP
 #include <iostream>
 
-class Animal
+class AAnimal
 {
 protected:
     std::string type;
 
 public:
-    Animal();
-    virtual ~Animal();
+    AAnimal();
+    virtual ~AAnimal();
 
     virtual void makeSound() const;
     std::string getType() const;

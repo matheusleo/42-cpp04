@@ -6,7 +6,7 @@
 /*   By: mleonard <mleonard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/05 20:39:13 by mleonard          #+#    #+#             */
-/*   Updated: 2024/06/05 21:33:51 by mleonard         ###   ########.fr       */
+/*   Updated: 2024/06/05 21:42:35 by mleonard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 #include <Animal.hpp>
 #include <Brain.hpp>
 
-class Cat : public Animal
+class Cat : public AAnimal
 {
 private:
     Brain *brain;
